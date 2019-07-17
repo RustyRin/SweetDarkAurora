@@ -1,0 +1,28 @@
+/*//META{"name":"SweetDarkAurora","description":"A purple and pink theme. Requires BetterDiscord's Normalized classes function to be enabled.","author":"Rin","version":"6.9", "website":"https://bit.ly/derealised", "source":"https://github.com/tropix126/betterDiscordStuff/blob/master/aurora/"}*//**/	
+/*Import CSS From Github*/	
+@import url('https://tropix126.github.io/BetterDiscordStuff/aurora/css/base.css');
+/*@import url("https://rustyrin.github.io/DiscordThemes/Aurora/CustomChanges.css");*/
+
+:root {	
+/*Color Variables*/	
+	--main-color: linear-gradient(150deg, var(--gradient1), var(--gradient2)); /*Accent Color of the Theme*/	
+	--gradient1: #D500F9; /*First Gradient Color*/	
+	--gradient2: #AA00FF; /*Second Gradient Color*/	
+	--hover-color: rgb(213, 0, 249); /*Secondary Accent of the Theme*/	
+	--main-color-faded: rgba(213, 0, 249, 0.2); /*Faded Main Color*/	
+/*Backdrop Variables*/	
+	--backdrop: url(https://imgur.com/NFnZN1g.jpg); /*Normal Backdrop origional https://i.imgur.com/xcjXx3E.jpg*/	
+	--backdropblurred: url(https://imgur.com/U7IQz2p.jpg); /*Darker/Blurred Version of Backdrop origional https://i.imgur.com/ExNrzGV.jpg*/	
+	--backdrop-darkness:transparent; /*Brightness of var(--backdrop);*/	
+/*Roundness Variables*/	
+	--chat-avatar-roundness:100px !important; /*Roundness of chat avatars*/	
+	--media-roundness:50px !important; /*General Roundness*/	
+	--guild-hovered-roundness:12px !important; /*Roundness of servers on hover*/	
+/*Status Variables*/	
+	--online: #43b581 !important; /*Color When someone is Online*/	
+	--idle: #faa61a !important; /*Color When someone is Idle*/	
+	--dnd: #f04747 !important; /*Color When someone is in Do Not Disturb*/	
+	--offline: #636b75 !important; /*Color When someone is offline*/	
+	--invisible: #747f8d !important; /*Color When someone is Invisible*/	
+	--streaming: #643da7 !important; /*Color When someone is Streaming*/
+}
